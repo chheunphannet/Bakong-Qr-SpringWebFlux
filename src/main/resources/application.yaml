@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: chongdia
+  bakongAccountId: phanet_chheun@wing
+  exchangeRate: https://v6.exchangerate-api.com/v6/a8c7bb42f4795756a992da80/latest/USD
+  datasource:
+    url: jdbc:postgresql://localhost:2002/chongdia_db
+    username: admin 
+    password: admin123 
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+bakong:
+  expirationTime: 2
+  api:
+    base-url: https://api-bakong.nbc.gov.kh
+    token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7ImlkIjoiNmZlNjU1YWE1YTg1NDgzMCJ9LCJpYXQiOjE3NjExMjcwMDgsImV4cCI6MTc2ODkwMzAwOH0.V6H8EqmPkrVZoa28lvGPK7VnJqjUkvVS4cisFCgKYxQ

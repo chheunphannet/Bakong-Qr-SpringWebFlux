@@ -1,0 +1,3 @@
+user click pay
+input (name,gender,amount,currency)
+then generate KHQR expriration 2min
